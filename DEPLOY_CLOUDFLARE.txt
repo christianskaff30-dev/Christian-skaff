@@ -1,0 +1,12 @@
+CLOUDFLARE PAGES BUILD SETTINGS
+Framework: Vite
+Build command: npm run build
+Build output directory: dist
+Root directory: /
+Node version: use current LTS supported by Cloudflare Pages
+
+To update the live site:
+1. Replace the existing GitHub project files with this project's files.
+2. Commit the changes to the connected branch.
+3. Cloudflare Pages should automatically start a new deployment.
+4. Check the deployment status and open the deployed URL.
